@@ -10,10 +10,10 @@ body {
     flex: 0.5;
     display: flex;
     background-color: #1F2937;
-    justify-content: space-around;
+    justify-content: space-between;
     color: white;
     font: bold;
-    padding: 0.5em;
+    padding: 16px 300px;
     align-items: center;
     min-height: 2em;
 }
@@ -44,15 +44,25 @@ a {
     display: flex;
     flex: 1;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #1F2937;
     gap: 5em;
-    padding: 4em 2em;
+    padding: 24px 300px;
     color: white;
 }
 
 .hero {
     max-width: 30em;
+}
+
+.hero_right {
+    background-color: grey;
+    display: flex;
+    flex: auto;
+    height: 180px;
+    justify-self: flex-end;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero1 {
@@ -61,6 +71,7 @@ a {
 }
 
 .hero2 {
+    
     font-size: 18px;
 }
 
