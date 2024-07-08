@@ -1,0 +1,186 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.section5,
+.header {
+    flex: 0.5;
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    color: white;
+    font: bold;
+    padding: 0.5em;
+    align-items: center;
+    min-height: 2em;
+}
+
+.section5 {
+    font-size: small;
+}
+
+.header_logo {
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.section1 {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    gap: 5em;
+    padding: 4em 2em;
+    color: white;
+}
+
+.hero {
+    max-width: 30em;
+}
+
+.hero1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero2 {
+    font-size: 18px;
+}
+
+button,
+img {
+    border-radius: 8px;
+}
+
+img {
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.b1 {
+    margin: 10px;
+    background-color: #3882FB;
+    color: white;
+    border-color: transparent;
+    border-style: solid;
+    padding: 0.5em 1em;
+}
+
+.section2 {
+    flex: 1;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 3em;
+    gap: 2em;
+}
+
+.section2_title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937
+}
+
+.illustrations {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.text {
+    max-width: 200px;
+}
+
+.image {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.image img {
+    display: flex;
+    justify-content: center;
+    max-width: 100px;
+    max-height: 100px;
+    border: #3882FB solid 4px;
+}
+
+.section3 {
+    min-height: 200px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background-color: #E5e7eb;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section3_1 {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5e7eb;
+    justify-content: flex-end;
+}
+
+.quote_signature {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+}
+
+.quote {
+    font-style: italic;
+    max-width: 400px;
+}
+
+.Product_text {
+    color: white;
+}
+
+.section4 {
+    min-height: 100px;
+    margin: 2em 16em;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    background-color: #3882FB;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.b2 {
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-style: solid;
+    padding: 0.5em 1em;
+}
